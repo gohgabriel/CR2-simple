@@ -9,6 +9,7 @@
 
 * This version of the CR2 estimator does not use a modified adjustment matrice (i.e. Theorem 2; Pustejovsky & Tipton, 2018), for fringe cases where the theorem might not hold (e.g. when using the modified vs full adjustment matrice leads to different results).
 * For this reason, this is highly unoptimized and only used for testing purposes.
+* The CR2_variance_estimator function takes a fitted statsmodels model object and the column name specifying the clustering as input.
 
 **Prerequisites**
 
